@@ -1,0 +1,56 @@
+name: dream_diary
+description: Yapay Zeka destekli rüya günlüğü projesi
+version: 1.0.0+1
+environment:
+  sdk: '>=3.1.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  #Firebase packages
+  firebase_core: ^2.24.2
+  cloud_firestore: ^4.17.5
+  firebase_auth: ^4.20.0
+  #Date And Time Packages
+  intl: ^0.19.0
+  #Font Type packages
+  google_fonts: ^6.1.0
+  #State Management
+  flutter_bloc: ^8.1.5
+  equatable: ^2.0.5
+  #Calendar
+  table_calendar: ^3.1.1
+  #Session
+  flutter_secure_storage: ^9.2.2
+  #gemini api for dream comment
+  google_generative_ai: ^0.4.3
+  #graphics
+  fl_chart: ^0.68.0
+  #splash screen
+  flutter_native_splash: ^2.4.0
+  # The following adds the Cupertino Icons font to your application.
+  cupertino_icons: ^1.0.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+#Landing Screen
+flutter_native_splash:
+  image: assets/images/dream_diary_landing_screen.png
+  color: '#23b14d'
+  android_gravity: fill
+  ios_content_mode: fill
+#App Logo
+flutter_icons:
+  image_path: "assets/images/dream_diary_logo.png"
+  android: true
+  ios: true
+flutter:
+  uses-material-design: true
+  fonts:
+   - family: Quicksand
+     fonts:
+     - asset: assets/fonts/Quicksand-Medium.ttf
+  assets:
+    - assets/images/
+    - .env

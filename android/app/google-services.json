@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "427202038466",
+    "project_id": "dream-diary-ecf74",
+    "storage_bucket": "dream-diary-ecf74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427202038466:android:3f24e1c21ea5524bb8495b",
+        "android_client_info": {
+          "package_name": "com.example.dream_diary"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDA361wHoNJd4ydNWVbPRT4QwG7F7whDNU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
